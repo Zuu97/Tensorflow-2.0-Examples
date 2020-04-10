@@ -1,0 +1,15 @@
+num_epochs = 15
+batch_size = 100
+tensor_shape = (28, 28,1)
+kernal_size = (3,3)
+pool_size = (2,2)
+stride = (2,2)
+conv1 = 32
+conv2 = 64
+conv3 = 128
+dense = 512
+output = 10
+train_path = 'mnist_train.csv'
+test_path = 'mnist_test.csv'
+saved_model = 'mnist_cnn.json'
+saved_weights = 'mnist_cnn.h5'
