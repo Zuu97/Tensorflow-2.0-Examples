@@ -81,7 +81,6 @@ class MnistClassifier(object):
         print("accuracy : {}".format(accuracy))
 
 if __name__ == "__main__":
-    saved_weights = os.path.join(data_dir,saved_weights)
     Xtrain, Ytrain, Xtest , Ytest = getMnistdata()
     classifier = MnistClassifier()
     if os.path.exists(saved_weights):
